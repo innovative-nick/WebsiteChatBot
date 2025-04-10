@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+google-auth
+beautifulsoup4
+requests
