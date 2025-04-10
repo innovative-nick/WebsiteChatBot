@@ -43,7 +43,7 @@ st.sidebar.title("Website Chatbot")
 st.sidebar.markdown("Enter a website URL to fetch content and chat about it.")
 
 # User input for URL
-url = st.sidebar.text_input("Enter Website URL")
+url = st.sidebar.text_input("Enter Website URL", "https://www.examplewebsite.com/")
 
 if st.sidebar.button("Fetch Content"):
     with st.spinner("Fetching website content..."):
